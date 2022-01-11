@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import Card from '../../components/Card/Card';
 import * as Styled from './Home.styles';
 import { Container, Row, Col } from 'react-grid-system';
 import Info from '../../components/Info/Info';
+import Text from '../../components/text/Text/Text';
 
 const data = [
     {
@@ -49,6 +51,14 @@ const Home: React.FC<HomeProps> = () => {
                     ))}
                 </Row>
             </Container>
+
+            <Info margin='20px 0 0 0'>Weird blob w/ Spline</Info>
+            <iframe
+                src='https://my.spline.design/untitled-66a0986518b9b30e43fa98726352347d/'
+                frameBorder='0'
+                width='400px'
+                height='300px'
+            />
         </Styled.Home>
     );
 };

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import AppContainer from './components/layout/AppContainer/AppContainer';
 import Home from './pages/Home/Home';
 
